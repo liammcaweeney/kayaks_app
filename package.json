@@ -1,6 +1,6 @@
 {
   "name": "kayaks_app",
-  "homepage": ".",
+  "homepage": "/kayaks_app",
   "private": true,
   "version": "0.0.1",
   "scripts": {
