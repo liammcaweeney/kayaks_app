@@ -108,7 +108,7 @@ object-assign
 `,dv=({tabs:e})=>fe(sv,{children:e.map(t=>fe(fv,{children:fe(cv,{to:t.link,children:t.label})}))}),pv=()=>fe(xa,{children:"Hello Vite"}),hv=()=>fe("div",{children:fe(xa,{children:"Hello Liam"})}),mv=()=>fe("div",{children:fe(xa,{children:"Hello Dosh"})}),gv=Ot.div`
   height: 100%;
   background: red;
-`,vv=()=>Ea(_m,{children:[fe(Io,{path:"/",element:fe(pv,{})}),fe(Io,{path:"info/liam",element:fe(hv,{})}),fe(Io,{path:"info/dosh",element:fe(mv,{})})]}),yv=()=>fe(Tm,{children:Ea(gv,{children:[fe(dv,{tabs:[{label:"Home",link:"/"},{label:"Dosh",link:"/info/dosh"},{label:"Liam",link:"/info/liam"}]}),fe(vv,{})]})}),wv={button:{primary:{color:"blue",colorHover:"white",bg:"white",bgHover:"blue",border:"white",borderHover:"blue"},secondary:{color:"red",colorHover:"white",bg:"white",bgHover:"red",border:"white",borderHover:"red"}}},Sv=Ng`
+`,vv=()=>Ea(_m,{children:[fe(Io,{path:"/",element:fe(pv,{})}),fe(Io,{path:"info/liam",element:fe(hv,{})}),fe(Io,{path:"info/dosh",element:fe(mv,{})})]}),yv=()=>fe(Tm,{basename:"/kayaks_app",children:Ea(gv,{children:[fe(dv,{tabs:[{label:"Home",link:"/"},{label:"Dosh",link:"/info/dosh"},{label:"Liam",link:"/info/liam"}]}),fe(vv,{})]})}),wv={button:{primary:{color:"blue",colorHover:"white",bg:"white",bgHover:"blue",border:"white",borderHover:"blue"},secondary:{color:"red",colorHover:"white",bg:"white",bgHover:"red",border:"white",borderHover:"red"}}},Sv=Ng`
   body * {
     font-family: "Lucida Console", "Courier New", monospace;
   }

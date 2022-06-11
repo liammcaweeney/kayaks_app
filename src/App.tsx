@@ -14,7 +14,7 @@ const Container = styled.div`
   background: red;
 `
 const Router = () => (
-    <Routes>
+    <Routes >
       <Route path="/" element={<Home />} />
       <Route path="info/liam" element={<Liam/>} />
       <Route path="info/dosh" element={<Dosh/>} />
@@ -24,7 +24,7 @@ const Router = () => (
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/kayaks_app">
       <Container>
         <Navbar tabs={[
           {label: 'Home', link: '/'},
