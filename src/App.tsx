@@ -24,7 +24,7 @@ const Router = () => (
 
 const App = () => {
   return (
-    <BrowserRouter basename="/kayaks_app">
+    <BrowserRouter>
       <Container>
         <Navbar tabs={[
           {label: 'Home', link: '/'},
