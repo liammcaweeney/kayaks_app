@@ -1,8 +1,8 @@
 {
   "name": "kayaks_app",
-  "homepage": "/kayaks_app",
+  "homepage": ".",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
